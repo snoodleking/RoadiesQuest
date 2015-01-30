@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ControlsV2.js">
+    <Files>
+      <File FileName="Assets/Plugins/AnimAccessor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ControlsV2.js" Line="45" Column="3" />
+      <File FileName="Assets/Scripts/SoundV2.js" Line="259" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

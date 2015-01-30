@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B08735DE-29E1-CDFD-F836-66AE5C2C2D6A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\AnimAccessor.cs" />
+     <Compile Include="Assets\Plugins\DebugMail.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMap.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapMeshBuilder.cs" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Fonts\amatic_thick.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Fonts\leagueGothic.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
