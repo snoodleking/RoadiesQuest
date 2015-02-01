@@ -17,7 +17,7 @@ var currentDigitX:float;
 
 function increase()
 {
-	print("Score increasing...");
+	//print("Score increasing...");
 	streak++;
 	score += base + growth++ * mults[ multRank ];
 	
@@ -32,9 +32,9 @@ function increase()
 		}
 	}
 	
-	print( "Calling displayScore()" );
+	//print( "Calling displayScore()" );
 	displayScore();
-	print(score);
+	//print(score);
 }
 
 function reset()

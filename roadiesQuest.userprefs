@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObstacleSpawn.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreScript.js">
     <Files>
-      <File FileName="Assets/Scripts/RoadieReactions.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RoadieReactions.js" Line="16" Column="8" />
       <File FileName="Assets/Scripts/NightFallController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AutoScroll.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ObstacleSpawn.js" Line="1" Column="1" />
@@ -12,6 +12,7 @@
       <File FileName="Assets/debugScript.js" Line="1" Column="1" />
       <File FileName="Assets/levelButtonHandler.js" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameData.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreScript.js" Line="37" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

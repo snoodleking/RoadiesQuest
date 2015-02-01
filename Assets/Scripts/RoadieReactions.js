@@ -53,7 +53,7 @@ function OnTriggerExit( other:Collider )
 	{
 		if ( other.gameObject.tag == "Spaceship" || other.gameObject.tag == "Lava" )
 		{
-			print( "sorlCleared: score increase" );
+			//print( "sorlCleared: score increase" );
 			scoreScript.increase();
 		}
 	}
