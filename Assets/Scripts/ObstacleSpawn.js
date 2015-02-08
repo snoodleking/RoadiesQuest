@@ -46,8 +46,31 @@ private var obstacles:GameObject[];
 private var iterator:int;
 private var index:int;
 
+//spawn offsets for all songs BUT indian land
+private var clamOffset:int;
+private var lavaOffset:int;
+private var spaceShipOffset:int;
+private var gasOffset:int;
+
 function Start ()
 {
+	//Set the offsets based on song.
+	//print ("The current level loaded is " + Application.loadedLevelName );
+	if ( Application.loadedLevelName == "Sandbox" )
+	{
+		clamOffset = 0;
+		gasOffset = 0;
+		lavaOffset = 0;
+		spaceShipOffset = 0;
+	} 
+	else 
+	{
+		clamOffset = 3175;
+		gasOffset = 3000;		
+		lavaOffset = 3260;
+		spaceShipOffset = 1000;
+	}
+
 	//Initialize spawn times and order.
 	var tempSize:int = spawnStrings.length;
 	spawnTimes = new int[spawnStrings.Length];
@@ -73,6 +96,7 @@ function Start ()
 	
 	//Set the iterator.
 	iterator = 0;
+	
 }
 
 
@@ -136,22 +160,23 @@ function setOrderedSpawnTimes( tTimes:int[], tOrder:int[], tString:String, tInde
 					case 'c':
 						tOrder[tIndex] = 0;
 						//clam hit time offset
-						tempInt -= 3175;
+						tempInt -= clamOffset;
+						//print ( "clam offset is " + clamOffset );
 						break;
 					case 'g':
 						tOrder[tIndex] = 1;
 						//gas hit time offset
-						tempInt -= 3000;
+						tempInt -= gasOffset;
 						break;
 					case 'l':
 						tOrder[tIndex] = 2;
 						//lava hit time offset
-						tempInt -= 3260;
+						tempInt -= lavaOffset;
 						break;
 					case 's':
 						tOrder[tIndex] = 3;
 						//spaceship hit time offset
-						tempInt -= 1000;
+						tempInt -= spaceShipOffset;
 						break;
 					case 'C':
 						tOrder[tIndex] = 4;
