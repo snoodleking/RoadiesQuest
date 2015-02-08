@@ -10,7 +10,7 @@ function Awake()
 
 function OnTriggerEnter ( other:Collider )
 {
-	print( "Triggered." );
+	//print( "Triggered." );
 	
 	if ( other.transform.tag == "Gas" )
 	{
