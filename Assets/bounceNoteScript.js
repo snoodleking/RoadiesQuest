@@ -22,16 +22,16 @@ function Awake ()
 	switch ( PlayerPrefs.GetString( "activeLevel" ) )
 	{
 		case "indian":
-			songLength = 300;
+			songLength = 150;
 			break;
 		case "ham":
-			songLength = 320;
+			songLength = 100;
 			break;
 		case "white":
-			songLength = 260;
+			songLength = 150;
 			break;
 		default:
-			print( "Error! No blah blah on switch thing click on me you lazy fuck." );
+			print( "Error! No blah blah on switch thing click on me you lazy man." );
 			break;
 	}
 	

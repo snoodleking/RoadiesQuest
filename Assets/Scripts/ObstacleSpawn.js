@@ -56,7 +56,7 @@ function Start ()
 {
 	//Set the offsets based on song.
 	//print ("The current level loaded is " + Application.loadedLevelName );
-	if ( Application.loadedLevelName == "Sandbox" )
+	if ( Application.loadedLevelName == "Sandbox" || Application.loadedLevelName == "indianLand" )
 	{
 		clamOffset = 0;
 		gasOffset = 0;

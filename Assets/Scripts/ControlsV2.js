@@ -189,7 +189,7 @@ function FixedUpdate()
 
 function shield()
 {
-	print( "shielding at " + Time.time );
+	//print( "shielding at " + Time.time );
 	shieldTone = sound.getShieldTone();
 	sound.playShieldTone( shieldTone );
 	shieldToneStartTime = Time.time;
@@ -202,7 +202,7 @@ function shield()
 
 function slide()
 {
-	print( "sliding at " + Time.time );
+	//print( "sliding at " + Time.time );
 	sound.playSlideSound();
 	//print( "This is a slide. Shows up only once." );
 	isAction = true;
@@ -217,7 +217,7 @@ function slide()
 
 function jump()
 {
-	print ("jumping at " + Time.time );
+	//print ("jumping at " + Time.time );
 	sound.playJumpSound();
 	//print( "This is a jump. Shows up only once." );
 	moveDirection.y = jumpSpeed;
@@ -238,7 +238,7 @@ function hover()
 
 function attack()
 {
-	print( "shooting at " + Time.time );
+	//print( "shooting at " + Time.time );
 	//print( "uhm?" );
 	sound.playAttackSound();
 	//print( "This is an attack. Shows up only once." );
@@ -249,7 +249,7 @@ function attack()
 function hurt()
 {
 	//that print is important - it tells when roadie got hit.
-	print( "hurt time " + Time.time );
+	//print( "hurt time " + Time.time );
 	if ( isHurt )
 	{
 		return;

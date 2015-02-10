@@ -99,7 +99,7 @@ function Update ()
 			if ( tutorialDialogue == null )
 			{	
 				sequence++;
-				gameData.LoadLevel( "Sandbox" );
+				gameData.LoadLevel( "indianLand" );
 			}
 			break;
 		}
@@ -119,7 +119,7 @@ function Update ()
 			
 			if ( hit.collider.gameObject.transform.tag == "tutSkip" )
             {
-            	gameData.LoadLevel( "Sandbox" );
+            	gameData.LoadLevel( "indianLand" );
             }
 		}
 	}

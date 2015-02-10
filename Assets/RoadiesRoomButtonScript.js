@@ -73,7 +73,7 @@ function Update ()
             	PlayerPrefs.SetString( "activeLevel", "indian" );
             	levelConfirmUI.SetActive( true );
             	isLevelSelected = true;
-            	levelName = "Sandbox";
+            	levelName = "indianLand";
             	
             	if ( !PlayerPrefs.GetInt( "isIndianLandUnlocked" ) )
             	{

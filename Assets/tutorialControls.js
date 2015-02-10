@@ -168,7 +168,7 @@ function FixedUpdate()
 {
 		if ( !controller.isGrounded )
 		{
-			print( "not grounded man" );
+			//print( "not grounded man" );
 			if ( !isHovering )
 				moveDirection.y -= gravity * Time.deltaTime;
 			else

@@ -33,7 +33,7 @@ function Update ()
             {
             	if ( PlayerPrefs.GetString( "activeLevel" ) == "indian" )
             	{
-            		gameData.LoadLevel( "Sandbox" );
+            		gameData.LoadLevel( "indianLand" );
             	} else if ( PlayerPrefs.GetString( "activeLevel" ) == "ham" )
             	{
             		gameData.LoadLevel( "hamOfRye" );
