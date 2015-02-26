@@ -28,7 +28,7 @@ function showScoreScreen ()
 	yield WaitForSeconds( 1 );
 	
 	var coinsFromLevel:int;
-	coinsFromLevel = endScore / 1000000;
+	coinsFromLevel = endScore / 200000;
 	
 	var totalCoins:int;
 	totalCoins = coinsFromLevel + PlayerPrefs.GetInt( "coinBank" );
