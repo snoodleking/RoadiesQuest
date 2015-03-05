@@ -156,6 +156,6 @@ function setNotes( tNotes:String[], tNumber:int )
 
 function randomText()
 {
-	var tempString:String = "#83k4n4k3\nKrNBIA#*5j\nKN#~)@";
+	var tempString:String = "Note Locked";
 	return tempString;
 }

@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RoadiesRoomButtonScript.js">
+    <Files>
+      <File FileName="Assets/Scripts/ScoreUI_v2.js" Line="31" Column="31" />
+      <File FileName="Assets/roadiesRecordsButtonHandler.js" Line="159" Column="32" />
+      <File FileName="Assets/RoadiesRoomButtonScript.js" Line="24" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

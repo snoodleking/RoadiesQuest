@@ -22,6 +22,7 @@ var levelConfirmUI:GameObject;
 var isLevelSelected:boolean = false;
 var levelSelectUI:GameObject;
 var songPlayerUI:GameObject;
+var songPlayerController: GameObject;
 var isOpenUI:boolean = false;
 var levelName:String;
 var gameData:GameData;
@@ -67,6 +68,7 @@ function Update ()
             } else if ( hit.collider.gameObject.transform.tag == "RecordPlayer" && !isOpenUI )
             {
 				songPlayerUI.SetActive( true );
+				songPlayerController.SetActive ( true );
 				isOpenUI = true;
             } else if ( hit.collider.gameObject.transform.tag == "IndianLandSelect" && !isLevelSelected )
             {
@@ -204,6 +206,7 @@ function Update ()
             	} else if ( songPlayerUI.active )
             	{
             		songPlayerUI.SetActive( false );
+					songPlayerController.SetActive ( false );
             	}
             	
             	print( "isOpenUI being set to false" );
